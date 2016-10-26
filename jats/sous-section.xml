@@ -1,0 +1,49 @@
+﻿<article id="article" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3"><front id="front"><journal-meta xmlns="http://www.w3.org/1999/xhtml" id="unsupported-1">
+            <journal-id journal-id-type="nlm-ta">sens-public</journal-id>
+            <journal-id journal-id-type="hwp">sens-public</journal-id>
+            <journal-id journal-id-type="publisher-id">sens-public</journal-id>
+            <journal-title-group>
+                <journal-title>Sens-public</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub" publication-format="electronic">2050-084X</issn>
+            <publisher>
+                <publisher-name>Sens public, Revue internationale</publisher-name>
+            </publisher>
+        </journal-meta><article-meta id="article-meta"><article-id xmlns="http://www.w3.org/1999/xhtml" id="unsupported-2" pub-id-type="publisher-id">15278</article-id><article-id xmlns="http://www.w3.org/1999/xhtml" id="unsupported-3" pub-id-type="doi">10.7554/eLife.15278</article-id><article-categories xmlns="http://www.w3.org/1999/xhtml" id="unsupported-4">
+                <subj-group subj-group-type="heading">
+                    <subject>psychanalyse</subject>
+                </subj-group>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research Article</subject>
+                </subj-group>
+            </article-categories><title-group id="title-group"><article-title id="article-title-1">Titre</article-title></title-group><contrib-group id="contrib-group-1"><contrib id="author-53022" contrib-type="author">
+                  <name>
+                      <surname>Arthur</surname>
+                      <given-names>Juchereau</given-names>
+                  </name>
+              </contrib></contrib-group><pub-date xmlns="http://www.w3.org/1999/xhtml" id="unsupported-5" date-type="pub" publication-format="electronic">
+                <day>31</day>
+                <month>03</month>
+                <year>2016</year>
+            </pub-date><pub-date xmlns="http://www.w3.org/1999/xhtml" id="unsupported-6" pub-type="collection">
+                <year>2016</year>
+            </pub-date><volume xmlns="http://www.w3.org/1999/xhtml" id="unsupported-7">5</volume><elocation-id xmlns="http://www.w3.org/1999/xhtml" id="unsupported-8">e15278</elocation-id><history xmlns="http://www.w3.org/1999/xhtml" id="unsupported-9">
+                <date date-type="received">
+                    <day>16</day>
+                    <month>02</month>
+                    <year>2016</year>
+                </date>
+                <date date-type="accepted">
+                    <day>13</day>
+                    <month>06</month>
+                    <year>2016</year>
+                </date>
+            </history><permissions xmlns="http://www.w3.org/1999/xhtml" id="unsupported-10">
+                <copyright-statement>Tous droits réservés © </copyright-statement>
+                <copyright-year>2016</copyright-year>
+                <copyright-holder>Sens-Public</copyright-holder>
+            </permissions><self-uri xmlns="http://www.w3.org/1999/xhtml" id="unsupported-11" content-type="pdf" xlink:href="sens-public.pdf"></self-uri><abstract xmlns="http://www.w3.org/1999/xhtml" id="unsupported-12">
+                <object-id pub-id-type="doi">néant</object-id>
+            </abstract><kwd-group xmlns="http://www.w3.org/1999/xhtml" id="unsupported-13" kwd-group-type="author-keywords">
+                <title>Mot-clés</title>
+            </kwd-group></article-meta></front><body id="body"><sec id="section-f996d77247b5fb0b34a535698273f40f"><title id="title-595a6e8374debb1f5fa2b43422fab1d7">Introduction</title><p id="heading-71120027430098915dae9a3b2568ab6b">Mon texte d'introduction</p></sec><sec id="section-f42a4a5480fc5e504a6adbd7344a01b8"><title id="title-e68c7051895484e0d488a4417618de98">Enjeux</title><sec id="section-23ed9e05fd60bc99099e8c84bb890f68"><title id="title-1f45f0c19b50461e13b44f16bfc79926">Technologiques</title><p id="heading-532672971b58e79c1b1006b2d8212169">ca peut crasher</p></sec><sec id="section-9db0b7c6e2610dae96bb7e019c17db87"><title id="title-852f871a796fc1729cb3bc5bc2e9e0a1">Philosophiques</title><p id="heading-4ce61019ffb97dde46f68cf9f3d5da03">Ca peut faire pleurer des étudiants</p></sec><sec id="section-671a80d562e784534b3805d0316e60e8"><title id="title-30714b25485e96233c704295f797ceb1">Administratifs</title><p id="heading-cd137ac5a65ed3d86d8baceff5264959">Ca peut annuler des visas</p></sec></sec><sec id="section-dd6eac83e9406918debca373944a1538"><title id="title-2c69823b9f3b592fbdd13f50c26b612b">Section niveau 1</title><p id="heading-d0301fc182440c608931afdca98b0878">ahaha</p><sec id="section-573e82ec8fcc978c254c2c86af7a6ab8"><title id="title-e21759de53a5002842771084816d0ceb">section de niveau 2</title><p id="heading-750590bcae225de7c12c86153f052075">petit texte</p><sec id="section-32d010fcf33c4a2e9c3265feeecfa462"><title id="title-e2f413cb67f9306f1c158a5f4b61a2d1">section de niveau 3</title><p id="heading-39902f2111b9d7f742eebb5bd012716e">texte</p></sec><sec id="section-87788d6ad0589c196b4c841ab802d625"><title id="title-4a5a312b263924734399dfe655e20f30">section de niveau 3 n*2</title><p id="heading-7a0c35f512217fe6152ba94405d48456">texte</p></sec><sec id="section-40318ca7c141a580123070b47efb4e54"><title id="title-6955705fa9ccfadcdd13360318a1d1ba">section de niveau 3 n*3</title><p id="heading-edc5c6de4f7e94cdaa1ecc21c99186cf">texte</p></sec></sec></sec></body><back id="back"><sec id="ai1" sec-type="additional-information"><title id="title-2">Additional information</title></sec><ref-list id="ref-list-1"><title id="title-3">References</title></ref-list></back></article>
