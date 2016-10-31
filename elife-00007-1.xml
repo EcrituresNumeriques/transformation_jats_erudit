@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="jats_erudit.xsl"?>
-<!DOCTYPE article SYSTEM "JATS-articleauthoring1.dtd">
-<article article-type="research-article" dtd-version="1.1d3"
+<?xml-stylesheet type="text/xsl" href="jats_erudit2.xsl"?>
+<?xml-model href="JATS-Archiving-1-1-MathML3-DTD-RNG/JATS-archivearticle1-mathml3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<article article-type="research-article" dtd-version="1.1"
     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- @doc https://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html -->
+    <!-- @doc documentation https://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html -->
     <front>
         <journal-meta>
             
@@ -14,10 +16,31 @@
             
             <journal-title-group>
                 <journal-title>eLife 
-                    <italic>test italique</italic></journal-title>
+                    <italic>test italique journal-title</italic></journal-title>
                 <!--abbrev-journal-title inventé -->
-                <abbrev-journal-title>EL</abbrev-journal-title>
+                <abbrev-journal-title>EL <italic>test italique abbrev-journal-title</italic></abbrev-journal-title>
             </journal-title-group>
+            <!-- contrib-group déplacé ici  de article-meta pour tester le script -->
+            <contrib-group>
+                <contrib contrib-type="editor">
+                    <name>
+                        <surname>journal Weigel</surname>
+                        <given-names>Detlef</given-names>
+                    </name>
+                    <role>Reviewing editor</role>
+                    <aff><institution>Max Planck Institute for Developmental Biology</institution>,
+                        <country>Germany</country></aff>
+                </contrib>
+                <!-- la balise contrib suivante a été inventée (valide) pour les besoins de la cause -->
+                <contrib contrib-type="guest-editor">
+                    <name>
+                        <surname>journal toto</surname>
+                        <given-names>Foo</given-names>
+                        
+                    </name>
+                    <role xml:lang="fr">testeur de script</role>
+                </contrib>
+            </contrib-group>
             
             
             <issn publication-format="electronic">2050-084X</issn>
@@ -95,7 +118,7 @@
             <contrib-group content-type="section">
                 <contrib contrib-type="editor">
                     <name>
-                        <surname>Weigel</surname>
+                        <surname>article Weigel</surname>
                         <given-names>Detlef</given-names>
                     </name>
                     <role>Reviewing editor</role>
@@ -105,7 +128,7 @@
                 <!-- la balise contrib suivante a été inventée (valide) pour les besoins de la cause -->
                 <contrib contrib-type="guest-editor">
                     <name>
-                        <surname>Barre</surname>
+                        <surname>article Barre</surname>
                         <given-names>Fou</given-names>
                         
                     </name>
@@ -292,12 +315,14 @@
         <!-- IB section 1 -->
         <sec id="s1" sec-type="intro">
             <title>Introduction</title>
-            <p>Plant indirect defenses are traits that disable or remove herbivores by manipulating
+            <p>Plant indirect <disp-quote><p>test citation directe</p></disp-quote>defenses are traits that disable or remove herbivores by manipulating
                 tri-trophic interactions to the advantage of the plant (<xref ref-type="bibr"
                     rid="bib40">Price et al., 1980</xref>). They attract and inform the third
                 trophic level, predators or parasitoids, resulting in increased attacks on
                 herbivores (<xref ref-type="bibr" rid="bib53">Turlings and Wäckers, 2004</xref>).
-                Indirect defenses are widespread and include domatia, extrafloral nectar, and food
+                <fn id="note1">
+                    <p>ceci est une note de bas de page ID note1.</p>
+                </fn>Indirect defenses are widespread and include domatia, extrafloral nectar, and food
                 bodies which provide shelter and nutrition for predators and parasitoids, as well as
                 herbivory-induced plant volatiles (HIPVs) which convey information about feeding
                 herbivores (<xref ref-type="bibr" rid="bib21">Heil, 2008</xref>). Field studies with
@@ -329,6 +354,12 @@
                     Turlings, 2001</xref>), but the parasitization in these studies was not mediated
                 by HIPVs. Hence three decades after their description, it remains unclear whether
                 HIPVs are really indirect defenses.</p>
+            <list list-type="order">
+               <list-item><p>test liste order hors p</p></list-item> 
+                <list-item><p>test liste order</p></list-item> 
+                <list-item><p>test liste order</p></list-item> 
+                <list-item><p>test liste order</p></list-item> 
+            </list>
             <p>Long-term field studies comparing HIPV-emitting vs -deficient plants are required in
                 order to demonstrate a defensive function for HIPVs. Experimental additions of pure
                 volatiles or mixes to plants growing in nature has worked well to test short-term
@@ -339,7 +370,13 @@
                 utility of HIPVs comes from studies in which predators and parasitoids learn to
                 associate HIPVs with prey; naïve predators and parasitoids are just as likely to
                 respond to HIPVs as not to respond (<xref ref-type="bibr" rid="bib1">Allison and
-                    Hare, 2009</xref>). Thus the inducibility of HIPV emission, which ensures
+                    Hare, 2009</xref>). 
+                <list list-type="bullet">
+                    <list-item><p>test liste bullet dans p</p></list-item> 
+                    <list-item><p>liste bullet</p></list-item> 
+                    <list-item><p>liste bullet</p></list-item> 
+                    <list-item><p>liste bullet</p></list-item> 
+                </list>Thus the inducibility of HIPV emission, which ensures
                 association with herbivore feeding, is likely essential for HIPV function, but it is
                 difficult to engineer (<xref ref-type="bibr" rid="bib35">Kos et al., 2009</xref>).
                 Engineered constitutive HIPV emissions have been used, either on predators and
@@ -461,6 +498,18 @@
             <title>Results</title>
             <sec id="s2-1">
                 <title>GLV and TPI production are reduced or eliminated in transformed lines</title>
+                <p>We chose a line of ir<italic>PI</italic> plants with no detectable TPI activity
+                    (<xref ref-type="bibr" rid="bib50">Steppuhn and Baldwin, 2007</xref>), and a
+                    line of ir<italic>LOX2</italic> plants with GLV emissions &lt;20% of WT (<xref
+                        ref-type="bibr" rid="bib3">Allmann et al., 2010</xref>); non-target defense
+                    metabolites are not affected in either line (<xref ref-type="bibr" rid="bib50"
+                        >Steppuhn and Baldwin, 2007</xref>; <xref ref-type="bibr" rid="bib2">Allmann
+                            and Baldwin, 2010</xref>), including emission of
+                    (<italic>E</italic>)-α-bergamotene measured in a glasshouse characterization of
+                    all lines prior to field release (see 'Non-target metabolites are not affected
+                    in ir<italic>LOX2</italic>, hemi-ir<italic>LOX2</italic> or
+                    ir<italic>PI</italic> plants'). </p>
+                
                 <p>We chose a line of ir<italic>PI</italic> plants with no detectable TPI activity
                         (<xref ref-type="bibr" rid="bib50">Steppuhn and Baldwin, 2007</xref>), and a
                     line of ir<italic>LOX2</italic> plants with GLV emissions &lt;20% of WT (<xref
@@ -655,6 +704,10 @@
                                     >http://dx.doi.org/10.7554/eLife.00007.005</ext-link></p></caption><graphic
                             xlink:href="http://publishing-cdn.elifesciences.org/00007/elife-00007-fig3-v1.jpg"
                         /></fig></p>
+                <sec id="s2-1.1">
+                    <title>TEST section 3</title>
+                    <p>ceci est un test.</p>
+                </sec>
             </sec>
             <sec id="s2-2">
                 <title>Non-target metabolites are not affected in transformed lines</title>
