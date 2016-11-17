@@ -1,0 +1,5 @@
+<fig fig-type="imagePhoto">
+<label>mon image</label>
+<caption><p>La photo de mon image</p></caption>
+<graphic xlink:url="http://ecrituresnumeriques.ca/img/maphoto.png"/>
+</fig>
